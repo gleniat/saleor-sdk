@@ -108,7 +108,7 @@ export const productFragment = gql`
       id
       name
       slug
-      products(first: 3, channel: $channel) {
+      products(first: 1, channel: $channel) {
         edges {
           node {
             ...BaseProduct
